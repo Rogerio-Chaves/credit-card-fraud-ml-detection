@@ -33,19 +33,19 @@ OS used: Ubuntu 22.04.3 LTS
 
 #### Notebook file:
 
-<p>Running the following command will create a kernel that can be used to run jupyter notebook commands inside the virtual environment.</p>
+<p>With virtual environment activated, running the following command will create a kernel that can be used to run jupyter notebook commands inside the virtual environment.</p>
 <code>ipython kernel install --user --name=venv</code></br>
 
 <p>Finally, select the <b>venv</b> kernel in the notebook interface.</p>
 
-#### Script file:
+#### Training Script file:
 
-<p>Run train script. Use this command <code>python3 train.py</code></p>
+<p>With virtual environment activated, run the train script using this command <code>python3 train.py</code></p>
 
-<p>Run predict web service.</p>
-<p>Build the dockerfile. Use this command<code>sudo docker build -t predict .</code></p>
+#### Predict web service:
+<p>With virtual environment activated, build the dockerfile using this command<code>sudo docker build -t predict .</code></p>
 
 
-<p>Run docker with this command <code>sudo docker run -it -p 9696:9696 predict:latest</docker></p>
+<p>Finally, run docker with this command <code>sudo docker run -it -p 9696:9696 predict:latest</docker></p>
 
 
