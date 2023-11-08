@@ -10,7 +10,7 @@ Columns: </br>
 - **Amount:** the transaction amount;
 - **Class:** Binary label indicating whether the transaction is fraudulent (1) or not (0).</p>
 
-**Datasets author:** Nidula Elgiriyewithana
+**Dataset author:** Nidula Elgiriyewithana
 
 ## How to get?
 

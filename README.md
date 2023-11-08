@@ -40,14 +40,12 @@ OS used: Ubuntu 22.04.3 LTS
 
 #### Script file:
 
-<p>Run train script.</p>
-<code>python3 train.py</code>
-
+<p>Run train script. Use this command <code>python3 train.py</code></p>
 
 <p>Run predict web service.</p>
-<p>Build the dockerfile.</p>
-<code>sudo docker build -t predict .</code>
+<p>Build the dockerfile. Use this command<code>sudo docker build -t predict .</code></p>
 
-<p>Run docker;</p>
-<code>sudo docker run -it -p 9696:9696 predict:latest</docker>
+
+<p>Run docker with this command <code>sudo docker run -it -p 9696:9696 predict:latest</docker></p>
+
 
