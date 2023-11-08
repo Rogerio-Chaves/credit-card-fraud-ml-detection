@@ -16,6 +16,8 @@ Columns: </br>
 
 <p>The original source of the dataset is on Kaggle platform in this <a href="https://www.kaggle.com/datasets/nelgiriyewithana/credit-card-fraud-detection-dataset-2023">link</a>. However, it's possible to get in this Google Drive <a href="https://drive.google.com/drive/folders/15ks9XQJaoW2VMPyrwpPyhpLczKQnmAIw?usp=sharing">link</a>, also available the train and test datasets used for model selection and model training.</p>
 
+**The datasets needs to be in this data directory.**
+
 
 ## Contribution:
 <b>Author:</b> Rogerio Chaves
