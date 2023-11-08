@@ -1,5 +1,7 @@
 # Credit Card Fraud Detection
 
+<b>Author:</b> Rogerio Chaves
+
 ## Description:
 <p align="justify">This project aim to detect fraud in credit card transaction. For this it use the <a href="https://www.kaggle.com/datasets/nelgiriyewithana/credit-card-fraud-detection-dataset-2023">Credit Card Fraud Detection Dataset 2023</a>. This dataset contains transactions made by European cardholders in the year of 2023. The data has been anonymized to protect the identities.</br>
 Instances: 568.630 transactions</br>
@@ -10,7 +12,13 @@ Columns: </br>
 - **Amount:** the transaction amount;
 - **Class:** Binary label indicating whether the transaction is fraudulent (1) or not (0).</p>
 
+**Dataset author:** Nidula Elgiriyewithana
+
 ## How to run this project:
+
+### Get the datasets
+
+<p>The instruction to get the datasets is in this <a href="https://github.com/Rogerio-Chaves/credit-card-fraud-ml-detection/blob/main/data/README.md">link</a></p>
 
 OS used: Ubuntu 22.04.3 LTS
 
@@ -18,7 +26,6 @@ OS used: Ubuntu 22.04.3 LTS
 
 
 <p>Open the terminal in the repository and set the command.</p>
-<p>Install pipenv.</p>
 <code>pip3 install pipenv</code></br>
 
 <p>Active virtual environment.</p>
@@ -38,8 +45,9 @@ OS used: Ubuntu 22.04.3 LTS
 
 
 <p>Run predict web service.</p>
-<code>flask --app predict run</code>
+<p>Build the dockerfile.</p>
+<code>sudo docker build -t predict .</code>
 
+<p>Run docker;</p>
+<code>sudo docker run -it -p 9696:9696 predict:latest</docker>
 
-## Contribution:
-<b>Author:</b> Rogerio Chaves
